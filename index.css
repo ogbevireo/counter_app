@@ -1,37 +1,13 @@
 @media only screen and (max-width: 550px) {
     body {
-        display: grid;
-        place-items: center;
-        flex-wrap: wrap;
         background-image: url("images/numbers_small.jpg");
     }
-
-    /* .main {
-        width: 300px;
-        background-color: white;
-        background-color: rgba(0, 0, 0, .10);
-        border-radius: 12px;
-        padding: 25px;
-        margin-top: 80px;
-    } */
 }
 
 @media only screen and (max-width: 720px) {
     body {
-        display: grid;
-        place-items: center;
-        flex-wrap: wrap;
         background-image: url("images/numbers_medium.jpg");
     }
-
-    /* .main {
-        width: 300px;
-        background-color: white;
-        background-color: rgba(0, 0, 0, .10);
-        border-radius: 12px;
-        padding: 25px;
-        margin-top: 80px;
-    } */
 }
 
 body {
@@ -40,22 +16,21 @@ body {
     flex-wrap: wrap;
     background-image: url("images/numbers_large.jpg");
     background-size: cover;
-    /* background-size: auto; */
-    height: auto;
-    font-family: Roboto, Ubuntu, BlinkMacSystemFont, -apple-system, 'Segoe UI', Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: bold;
     text-align: center;
     height: 100vh;
 }
 
 .main {
-    width: 300px;
+    max-width: 80%;
     background-color: grey;
     background-color: rgba(0, 0, 0, .35);
     border-radius: 12px;
     padding: 25px;
-    margin: 60px 10px;
+    margin: auto;
     text-shadow: 0.5px 0.2px 0px silver;
+
 }
 
 p {
