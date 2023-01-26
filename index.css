@@ -4,9 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("images/numbers_small.jpg");
+    background-image: url("images/numbers_large.jpg");
     background-size: cover;
-    background-size: auto;
+    /* background-size: auto; */
     height: auto;
     font-family: Roboto, Ubuntu, BlinkMacSystemFont, -apple-system, 'Segoe UI', Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
