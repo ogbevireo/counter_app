@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("images/numbers_medium.jpg");
+    background-image: url("images/numbers_small.jpg");
     background-size: cover;
     background-size: auto;
     height: auto;
