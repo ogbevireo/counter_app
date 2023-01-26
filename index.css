@@ -7,7 +7,7 @@
     }
 
     .main {
-        width: 350px;
+        width: 100%;
         background-color: white;
         background-color: rgba(0, 0, 0, .10);
         border-radius: 12px;
