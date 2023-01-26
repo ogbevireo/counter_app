@@ -54,7 +54,7 @@ body {
     border-radius: 12px;
     padding: 25px;
     margin-top: 80px;
-    text-shadow: 1px 1px 0px silver;
+    text-shadow: 0.5px 0.2px 0px silver;
 }
 
 p {
